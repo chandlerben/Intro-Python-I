@@ -10,3 +10,19 @@ num = int(num)
 
 # YOUR CODE HERE
 
+
+def is_even(a):
+    if a % 2 == 0:
+        print("Even!")
+    else:
+        print("Odd")
+
+
+is_even(num)
+
+
+def shorthand_if(a):
+    print("This is shorthand even") if a % 2 == 0 else print("Shorthand odd!")
+
+
+shorthand_if(num)
